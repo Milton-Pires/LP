@@ -9,5 +9,5 @@ if menor > maior:
 if menor> meio:
     menor, meio = meio, menor
 if meio> maior:
-    meio, menor= meio, maior
+    meio, maior= maior, meio
 print (menor,meio,maior)
